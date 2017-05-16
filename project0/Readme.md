@@ -7,5 +7,9 @@ The goal of this project is to get used to making edits on my computer, then pus
 ## This is a subtitle.
 
 Below is a list:
-| hi
-| hiii
+- hi
+- hiii
+
+Below is another list:
+* hi
+* hiii
