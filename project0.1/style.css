@@ -1,0 +1,22 @@
+* {
+	border: solid;
+}
+
+body {
+	background-color: rgba(200, 10, 10, .5);
+}
+
+h1 {
+	background-color: rgba(10, 200, 100, .5);
+	color: blue;
+	text-align: center;
+	font-family: Georgia, serif;
+}
+
+p {
+	font-family: Helvetica, sans-serif;
+}
+
+a {
+	font-family: "Comic Sans";
+}
