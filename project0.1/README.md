@@ -1,0 +1,1 @@
+# This is a first attempt to apply skills learned from CodeAcademy's lesson on html and css.
