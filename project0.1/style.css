@@ -44,3 +44,21 @@ img {
 #HorizontalList li {
 	display: inline-block;
 }
+
+table {
+	text-align: center;
+	margin: auto;
+}
+
+#Parent {
+	text-align: center;
+}
+.child1 {
+	display: inline-block;
+	width: 400px;
+	margin-right: 100px;
+}
+
+.child2 {
+	display: inline-block;
+}
