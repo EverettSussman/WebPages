@@ -1,22 +1,46 @@
 * {
-	border: solid;
+	border: 1px solid rgba(0,0,0,.5);
+	font-family: Georgia, serif;
+}
+
+h1 {
+	text-align: center;
 }
 
 body {
 	background-color: rgba(200, 10, 10, .5);
 }
 
-h1 {
-	background-color: rgba(10, 200, 100, .5);
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+#Blue {
 	color: blue;
+	font-size: 20px;
+	font-weight: 300;
+	font-stretch: .5em;
+}
+
+#Border {
+	border: groove;
+	border-style: solid dotted;
+	border-color: blue;
+	border-radius: 25px;
+	border-width: .05em;
+}
+
+#Margin {
+	margin-top: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+#HorizontalList ul {
 	text-align: center;
-	font-family: Georgia, serif;
 }
 
-p {
-	font-family: Helvetica, sans-serif;
-}
-
-a {
-	font-family: "Comic Sans";
+#HorizontalList li {
+	display: inline-block;
 }
