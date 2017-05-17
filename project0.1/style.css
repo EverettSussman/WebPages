@@ -57,6 +57,7 @@ table {
 	display: inline-block;
 	width: 400px;
 	margin-right: 100px;
+	padding-right: 100px;
 }
 
 .child2 {
