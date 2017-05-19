@@ -1,3 +1,27 @@
+* {
+  border: 1px dotted black; }
 
+.header {
+  height: 6rem;
+  width: 100%;
+  overflow: auto;
+  background-color: Midnightblue; }
+  .header p {
+    color: white; }
+
+.footer {
+  height: 5rem;
+  width: 100%;
+  background-color: red;
+  overflow: auto; }
+
+.body {
+  height: 1000px;
+  width: 100%;
+  background-color: #BBB;
+  overflow: auto; }
+
+html {
+  font-size: 16px; }
 
 /*# sourceMappingURL=main.css.map */

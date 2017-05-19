@@ -1,0 +1,16 @@
+// Main style guide for project 0.3
+// Code by Everett Sussman
+
+$devborder: 1px dotted black;
+
+* {
+	border: $devborder;
+}
+
+@import "layout/header";
+@import "layout/footer";
+@import "pages/index";
+
+html {
+	font-size: 16px;
+}
