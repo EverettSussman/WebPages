@@ -2,8 +2,13 @@
 <html>
 <head>
   <title>AboutMe</title>
-  <script src="https://www.w3schools.com/lib/w3.js"></script>
   <link rel="stylesheet" type="text/css" href="../style/main.css">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  
 </head>
 <body>
 	<div class="header">
@@ -14,10 +19,41 @@
 		  </nav>
 	</div>
     <div class="body">
-		<p>Hello!  This site is all about me :).</p>
+		<p>Hello!  This site is all about me! :).</p>
+		<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 3</div>
+		  <img src="http://i.huffpost.com/gen/1320688/images/o-DESERT-CACTUS-facebook.jpg" style="width:100%">
+		  <div class="text">Caption Text</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 3</div>
+		  <img src="http://www.summitpost.org/images/original/492878.JPG" style="width:100%">
+		  <div class="text">Caption Two</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 3</div>
+		  <img src="http://www.elbowbeachbermuda.com/sites/default/files/styles/masthead/public/masthead/Bermuda-Ocean-Front-Resort_articles-3_0.jpg?itok=IAai3amC" style="width:100%">
+		  <div class="text">Caption Three</div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
     </div>
-    <div class="footer">
-	
-    </div>
+    <script src="../javascript/slideshow.js"></script>
+
+    <div class="footer"></div>
 </body>
 </html>

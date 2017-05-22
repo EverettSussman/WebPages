@@ -1,0 +1,11 @@
+{
+    "project_path": "main.scss",
+	"output_path": "main.css",
+	"options": {
+		"cache":         false,
+		"debug":         true,
+		"line-comments": true,
+		"line-numbers":  true,
+		"style":         "nested"
+	}
+}

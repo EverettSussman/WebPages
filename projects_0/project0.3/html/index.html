@@ -4,7 +4,11 @@
   <title>Project0.3</title>
   <script src="https://www.w3schools.com/lib/w3.js"></script>
   <link rel="stylesheet" type="text/css" href="../style/main.css">
-  
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script src="../javascript/main.js"></script>
 </head>
   <body>
   	<!-- Include header -->
@@ -14,10 +18,41 @@
 		  	<a href="aboutme.html" id="Aboutme">About Me</a>
 		  	<a href="other.html" id="Other">Other</a>
 		  </nav>
-	</div>
+	  </div>
     <div class="body">
-		<p>Hello World!</p>
+  		<p>Hello World!</p>
+
+      <button class="button">I am a button.</button>
+      <form action="">
+        <input type="radio" name="on/off" value="on" checked> Button On<br>
+        <input type="radio" name="on/off" value="off"> Button Off<br>
+      </form>
+
+      <div class="buttonshow">
+        <p>I will only show when the button has been clicked on!</p>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown via jQuest</button>
+        <div id="myDropdown" class="dropbtn">
+          <ul class="dropdown-content">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="dropcss">
+        <button id="dropbtncss">Dropdown via css</button>
+        <ul class="dropdown-content-css">
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </div>
     </div>
+    
     <div class="footer">
 	
     </div>
